@@ -21,7 +21,7 @@ device = 'cuda'
 
 #input: batch x channel x dai x rong 
 net = ResNet18().to(device)
-net = torch.load("/home/tuht/DL/checkpoint/model_checkpoint.pth")
+net = torch.load("./checkpoint/model_checkpoint.pth")
 # Train the ResNet-18 model
 CER = 0
 for epoch in range(1):

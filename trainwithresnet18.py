@@ -53,5 +53,5 @@ for epoch in range(200):
 
     print(f"Epoch {epoch + 1}, loss: {running_loss / len(data)}")
 
-    torch.save(net, '/home/tuht/DL/checkpoint/model_checkpoint.pth')
+    torch.save(net, './checkpoint/model_checkpoint.pth')
 
